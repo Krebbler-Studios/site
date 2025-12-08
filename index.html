@@ -1,9 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krebbler Studios</title>
+    <style>
+		body { 
+			margin:0; 
+			font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; 
+			background:#87CEFA;
+			color:#1a1a1a; 
+		}
+		header { 
+			background:#33BFFF;
+			padding:2rem; 
+			text-align:center; 
+			box-shadow:0 4px 8px rgba(0,0,0,0.15); 
+		}
+		header h1 { 
+			margin:0; 
+			font-size:2.5rem; 
+			color:#fc8c03;
+		}
+		header p { 
+			margin:0.5rem 0 0 0; 
+			font-size:1.2rem; 
+			color:#ffffff; 
+		}
+		main { 
+			padding:2rem; 
+			max-width:1000px; 
+			margin:auto; 
+		}
+		section { 
+			margin-bottom:3rem; 
+		}
+		.card { 
+			background:#B0E0E6;
+			padding:1.5rem; 
+			border-radius:10px; 
+			box-shadow:0 4px 10px rgba(0,0,0,0.2); 
+			transition: transform 0.2s, box-shadow 0.2s; 
+		}
+		.card:hover { 
+			transform: translateY(-5px); 
+			box-shadow:0 8px 15px rgba(0,0,0,0.3); 
+		}
+		h2 { 
+			color:#fc8c03;
+			margin-bottom:1rem; 
+		}
+		a.button { 
+			text-decoration:none; 
+			display:inline-block; 
+			padding:0.5rem 1rem; 
+			border-radius:8px; 
+			background:#fc8c03;
+			color:#ffffff; 
+			font-weight:bold; 
+			margin-top:0.5rem; 
+			transition: background 0.2s; 
+		}
+		a.button:hover { 
+			background:#C76E00;
+		}
+		footer { 
+			text-align:center; 
+			padding:1.5rem; 
+			background:#00BFFF; 
+			color:#ffffff; 
+		}
+	</style>
+
+
+</head>
 <body>
-
-<h1>Krebbler Studios</h1>
-<p>! Note that this website is in development - for the main site, go to https://krebblerstudios.my.canva.site/ !</p>
-
+    <header>
+        <h1>Krebbler Studios</h1>
+        <p>Ambitious games from people who care</p>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <div class="card">
+                <p>We're a small, UK-based indie game team, making games for itch.io which we love and which we hope you will too!</p>
+            </div>
+        </section>
+        <section>
+            <h2>Our Games</h2>
+            <div class="card">
+				<h3>Blazing Battles</h3>
+				<p></p>
+                <p>A discontinued rising lava battle royale on Roblox!</p>
+                <a class="button" href="https://www.roblox.com/games/109520936541673/Blazing-Battles">Play</a>
+            </div>
+            <div class="card" style="margin-top:1rem;">
+				<h3>Cryogenic</h3>
+                <p>A WIP pixel art platformer!</p>
+				<small>Please note that this game will be very small, as it is being made to learn a new game engine</small>
+				<p></p>
+                <a class="button" href="#">View Game</a>
+            </div>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <div class="card">
+                <p>Email: krebblerstudios@gmail.com</p>
+                <p>Discord: discord.gg/KRM7cug9KA</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Krebbler Studios
+    </footer>
 </body>
 </html>
